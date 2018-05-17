@@ -1,0 +1,26 @@
+#header{
+    position:fixed;
+    height: 50px;
+    display:block;
+    width: 100%;
+    z-index:9;
+    text-align:center;
+    color: #f2f2f2;
+    padding: 20px 0 0 0;
+    background: rgba(255,146,10,1);
+    background: -moz-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,175,75,1) 74%, rgba(255,175,75,1) 89%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,146,10,1)), color-stop(74%, rgba(255,175,75,1)), color-stop(89%, rgba(255,175,75,1)));
+    background: -webkit-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,175,75,1) 74%, rgba(255,175,75,1) 89%);
+    background: -o-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,175,75,1) 74%, rgba(255,175,75,1) 89%);
+    background: -ms-linear-gradient(left, rgba(255,146,10,1) 0%, rgba(255,175,75,1) 74%, rgba(255,175,75,1) 89%);
+    background: linear-gradient(to right, rgba(255,146,10,1) 0%, rgba(255,175,75,1) 74%, rgba(255,175,75,1) 89%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff920a', endColorstr='#ffaf4b', GradientType=1 );
+}
+#header{
+    top:0px;
+}
+.textHeader{
+    font-family: Montserrat;
+    font-size: 21px;
+    margin-top: -12px;
+}
